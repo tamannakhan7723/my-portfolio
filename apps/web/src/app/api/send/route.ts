@@ -1,4 +1,5 @@
 // app/api/send/route.ts
+export const dynamic = "force-dynaqmic";
 import { NextResponse } from 'next/server';
 import { Resend } from 'resend';
 
