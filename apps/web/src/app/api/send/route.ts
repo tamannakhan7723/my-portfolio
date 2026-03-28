@@ -1,12 +1,20 @@
 // app/api/send/route.ts
-export const dynamic = "force-dynaqmic";
+export const runtime= "nodejs";
+export const dynamic = "force-dynamic";
 import { NextResponse } from 'next/server';
 import { Resend } from 'resend';
 
 // Initialize Resend with API key from environment variable
-const resend = new Resend(process.env.RESEND_API_KEY);
+const resend = 
+process.env.RESEND_API_KEY
+? new
+Resend (process.env.RESEND_API_KEY)
+:null;
 
 export async function POST(request: Request) {
+  if(!resend){
+    return NextResponse.json({error:"Email service not configured"});
+  }
   try {
     const { fullname, email, message } = await request.json();
 
