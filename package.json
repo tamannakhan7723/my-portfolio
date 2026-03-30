@@ -4,11 +4,7 @@
   "private": true,
   "scripts": {
     "build": "turbo build",
-<<<<<<< HEAD
     "export": "cd apps/web && next export",
-=======
-    "export":"cd apps/web && next export",
->>>>>>> 66cadfe29cf288da667e33219f90176678a86577
     "dev": "turbo dev",
     "test": "turbo run test",
     "lint": "turbo lint",
@@ -30,11 +26,7 @@
     "packages/*"
   ],
   "dependencies": {
-<<<<<<< HEAD
     "@emailjs/browser": "^4.4.1",
-=======
-    "emailjs-com": "^3.2.0",
->>>>>>> 66cadfe29cf288da667e33219f90176678a86577
     "resend": "^4.8.0"
   }
 }
