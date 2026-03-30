@@ -2,8 +2,6 @@ import { IconType } from "react-icons";
 
 export type Resume = {
   educations: Education;
-  awardLeaderships: AwardLeaderships;
-  teachingExperiences: TeachingExperience;
   professionalExperiences: ProfessionalExperience;
 };
 
@@ -30,29 +28,6 @@ export type Education = {
   }[];
 };
 
-export type AwardLeaderships = {
-  icon: IconType;
-  title: string;
-  items: {
-    company: string;
-    location: string;
-    role: string;
-    duration: string;
-    tasksMarkdown: string;
-  }[];
-};
-
-export type TeachingExperience = {
-  icon: IconType;
-  title: string;
-  items: {
-    company: string;
-    location: string;
-    role: string;
-    duration: string;
-    tasksMarkdown: string;
-  }[];
-};
 
 export type ProfessionalExperience = {
   icon: IconType;
