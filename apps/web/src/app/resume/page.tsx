@@ -10,8 +10,6 @@ const { title } = config;
 const { resume } = config;
 const { professionalExperiences } = resume;
 const { educations } = resume;
-const { awardLeaderships } = resume;
-const { teachingExperiences } = resume;
 
 export const metadata: Metadata = {
   title: `Resume | ${title}`,
@@ -19,8 +17,6 @@ export const metadata: Metadata = {
 
 const profExp = <TimeLine data={professionalExperiences} />;
 const education = <TimeLine data={educations} />;
-const awardLeadership = <TimeLine data={awardLeaderships} />;
-const teachingExp = <TimeLine data={teachingExperiences} />;
 
 function Resume() {
   return (
@@ -29,8 +25,6 @@ function Resume() {
       <DownloadCV />
       {profExp}
       {education}
-      {teachingExp}
-      {awardLeadership}
     </article >
   );
 }
