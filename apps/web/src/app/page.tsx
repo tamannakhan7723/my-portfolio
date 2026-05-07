@@ -46,9 +46,8 @@ export const metadata: Metadata = {
   manifest: '/manifest.webmanifest',
   twitter: {
     card: "summary_large_image",
-    title: "HAMZAOUI Thameur - v56 | Computer Vision enginer",
-    description:
-      "Hi, I’m Hamzaoui Thameur, a visionary Visual Computing Engineer with a deep passion for AI 🤖, Computer Vision 👁️, Machine Learning 📊, and Generative AI 🎨. I specialize in crafting groundbreaking AI models, designing intelligent agents, and building AI-powered mobile applications 📱 that address real-world challenges. With a robust engineering foundation and an insatiable curiosity for deep learning and automation 🔧, I aim to redefine the boundaries of technology. Beyond my professional endeavors, I’m an open-source advocate 🌐, a dedicated mentor, and a lifelong learner 📚. When I’m not immersed in code, you’ll find me on the basketball court 🏀, exploring virtual worlds 🎮, capturing moments through photography 📸, or weaving stories 🎤. Let’s connect and create something extraordinary together!.",
+    title: "Tamanna Khan| Computer engineer ",
+   description: "Tamanna Khan Frontend Web Developer & UI Designer. I build responsive and user-friendly websites for startups, freelancers, and businesses.",
     images: "",
   },
   icons: {
@@ -88,9 +87,8 @@ const addJsonLd = () => {
       "image": "https://www.1chooo.com/images/profile.webp",
       "url": ${siteURL},
       "sameAs": [
-        "https://www.linkedin.com/in/hamzaoui-thameur/",
-        "http://github.com/verus56",
-        "https://medium.com/@verus56",
+        "https://www.linkedin.com/in/tamanna-khan-1a5220316",
+        "https://github.com/tamannakhan7723,
       ],
     }
   `,

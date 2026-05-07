@@ -125,7 +125,7 @@ async function BlogPosts({ searchParams }: { searchParams: tParams }) {
 export default function Post({ searchParams }: { searchParams: tParams }) {
   return (
     <article>
-      <PageHeader header="Thameur's Blog" />
+      <PageHeader header="Tamanna's Blog" />
       <Suspense fallback={<Loading />}>
         <BlogPosts searchParams={searchParams} />
       </Suspense>
